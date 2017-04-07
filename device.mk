@@ -72,5 +72,9 @@ PRODUCT_SYSTEM_PROPERTIES  += \
     net.pixelos.build_type=release \
     net.pixelos.version=fourteen
 
+# WiFi
+PRODUCT_PACKAGES += \
+    TargetWifiOverlay
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/psyche/psyche-vendor.mk)
