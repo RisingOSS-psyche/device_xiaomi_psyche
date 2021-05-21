@@ -39,6 +39,7 @@ PRODUCT_PACKAGES += NfcTargetOverlay
 PRODUCT_PACKAGES += \
     ApertureTargetOverlay \
     FrameworksTargetOverlay \
+    SettingsProviderTargetOverlay \
     SettingsTargetOverlay \
     SettingsTargetOverlayPsycheCN \
     SettingsTargetOverlayPsycheGL \
