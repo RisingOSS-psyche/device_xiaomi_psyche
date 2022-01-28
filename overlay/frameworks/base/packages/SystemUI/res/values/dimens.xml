@@ -20,9 +20,6 @@
          relies on this value will not be sized correctly. -->
     <item name="pixel_pitch" format="float" type="dimen">60.61</item>
 
-    <!-- The absolute side margins of quick settings -->
-    <dimen name="rounded_corner_content_padding">52.0px</dimen>
-
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">4dp</dimen>
 
