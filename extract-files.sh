@@ -7,6 +7,16 @@
 
 function blob_fixup() {
     case "${1}" in
+            vendor/etc/libnfc-nci.conf)
+            [ "$2" = "" ] && return 0
+            cat << EOF >> "${2}"
+###############################################################################
+# Mifare Tag implementation
+# 0: General implementation
+# 1: Legacy implementation
+LEGACY_MIFARE_READER=1
+EOF
+            ;;
         vendor/etc/init/init.batterysecret.rc)
             [ "$2" = "" ] && return 0
             sed -i "/seclabel u:r:batterysecret:s0/d" "${2}"
