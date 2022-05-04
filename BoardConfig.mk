@@ -15,6 +15,11 @@ TARGET_SCREEN_DENSITY := 440
 # Device VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+# Dolby Vision
+SOONG_CONFIG_NAMESPACES += dolby_vision
+SOONG_CONFIG_dolby_vision += enabled
+SOONG_CONFIG_dolby_vision_enabled := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_psyche
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_psyche
