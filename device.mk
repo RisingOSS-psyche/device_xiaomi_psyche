@@ -26,6 +26,13 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
+    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
+    vendor.xiaomi.hardware.fx.tunnel@1.0.vendor \
+    libudfpshandler
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
