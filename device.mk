@@ -45,6 +45,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     sensors.udfps
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
+    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
+    libudfpshandler
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
