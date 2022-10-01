@@ -27,7 +27,7 @@ PRODUCT_PACKAGES += \
     libpiex_shim
 
 # Fingerprint
-TARGET_HAS_FOD := true
+TARGET_HAS_UDFPS := true
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
