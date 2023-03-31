@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Project ID Quota
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # A/B
 TARGET_IS_VAB := true
 
