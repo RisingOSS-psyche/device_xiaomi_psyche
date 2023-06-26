@@ -13,6 +13,7 @@ static const variant_info_t psyche_global_info = {
     .hwc_value = "GLOBAL",
     .sku_value = "",
 
+    .name = "psyche_global",
     .brand = "Xiaomi",
     .device = "psyche",
     .marketname = "Xiaomi 12X",
@@ -26,6 +27,7 @@ static const variant_info_t psyche_info = {
     .hwc_value = "",
     .sku_value = "",
 
+    .name = "psyche",
     .brand = "Xiaomi",
     .device = "psyche",
     .marketname = "Xiaomi 12X",
