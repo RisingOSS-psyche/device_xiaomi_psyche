@@ -40,6 +40,9 @@ PRODUCT_PACKAGES += PsycheNfc
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Release keys
+$(call inherit-product-if-exists, vendor/extra/product.mk)
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.udfps
