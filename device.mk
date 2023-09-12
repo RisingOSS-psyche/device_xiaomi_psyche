@@ -26,6 +26,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+# Nfc
+PRODUCT_PACKAGES += PsycheNfc
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
