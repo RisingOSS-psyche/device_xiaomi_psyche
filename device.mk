@@ -31,6 +31,9 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
     libudfpshandler
 
+# Nfc
+PRODUCT_PACKAGES += PsycheNfc
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
