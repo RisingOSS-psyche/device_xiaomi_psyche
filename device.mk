@@ -33,6 +33,9 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fx.tunnel@1.0.vendor \
     libudfpshandler
 
+# Nfc
+PRODUCT_PACKAGES += PsycheNfc
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
