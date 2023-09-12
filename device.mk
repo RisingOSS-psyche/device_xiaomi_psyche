@@ -29,6 +29,9 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 TARGET_HAS_UDFPS := true
 
+# Nfc
+PRODUCT_PACKAGES += PsycheNfc
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
