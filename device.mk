@@ -36,9 +36,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fx.tunnel@1.0.vendor \
     libudfpshandler
 
-# Nfc
-PRODUCT_PACKAGES += PsycheNfc
-
 # Dolby Config File
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dolby/config/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
@@ -72,8 +69,16 @@ PRODUCT_SYSTEM_PROPERTIES  += \
     net.pixelos.build_type=release \
     net.pixelos.version=fourteen
 
-# WiFi
+# Overlays
 PRODUCT_PACKAGES += \
+    ApertureTargetOverlay \
+    FrameworksTargetOverlay \
+    NfcTargetOverlay \
+    SettingsProviderTargetOverlay \
+    SettingsTargetOverlay \
+    SettingsTargetOverlayPsycheCN \
+    SettingsTargetOverlayPsycheGL \
+    SystemUITargetOverlay \
     TargetWifiOverlay
 
 # Inherit from vendor blobs
