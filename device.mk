@@ -33,13 +33,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fx.tunnel@1.0.vendor \
     libudfpshandler
 
-# Nfc
-PRODUCT_PACKAGES += PsycheNfc
-
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.udfps
@@ -54,8 +47,16 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# WiFi
+# Overlays
 PRODUCT_PACKAGES += \
+    ApertureTargetOverlay \
+    FrameworksTargetOverlay \
+    NfcTargetOverlay \
+    SettingsProviderTargetOverlay \
+    SettingsTargetOverlay \
+    SettingsTargetOverlayPsycheCN \
+    SettingsTargetOverlayPsycheGL \
+    SystemUITargetOverlay \
     TargetWifiOverlay
 
 # Inherit from vendor blobs
