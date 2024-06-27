@@ -31,6 +31,9 @@
          config_defaultPeakRefreshRate will act as the default frame rate. -->
     <integer name="config_defaultRefreshRate">0</integer>
 
+    <!-- Whether usage of the proximity sensor during doze is supported -->
+    <bool name="doze_proximity_sensor_supported">false</bool>
+
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
         percent. The length of this array is assumed to be one greater than
         config_ambientThresholdLevels. The brightening threshold is calculated as
