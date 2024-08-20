@@ -36,7 +36,7 @@ static const variant_info_t psyche_info = {
     .marketname = "Xiaomi 12X",
     .model = "2112123AC",
     .cert = "2112123AC",
-    .build_fingerprint = "Xiaomi/psyche/psyche:13/TKQ1.221114.001/V816.0.7.0.TLDCNXM:user/release-keys",
+    .build_fingerprint = "Xiaomi/psyche/psyche:13/TKQ1.221114.001/V816.0.8.0.TLDCNXM:user/release-keys",
     .hwsku = "psyche",
     .nfc = true,
 };
