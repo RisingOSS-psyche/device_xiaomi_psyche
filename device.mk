@@ -81,5 +81,9 @@ PRODUCT_PACKAGES += \
     SystemUITargetOverlay \
     TargetWifiOverlay
 
+# Thermal Config File
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal/thermal-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-normal.conf
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/psyche/psyche-vendor.mk)
