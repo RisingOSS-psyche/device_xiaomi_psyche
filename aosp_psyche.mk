@@ -30,4 +30,7 @@ PRODUCT_MODEL := Xiaomi 12X
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="psyche-user 13 TKQ1.221114.001 V816.0.8.0.TLDCNXM release-keys"
+
 BUILD_FINGERPRINT := Xiaomi/psyche/psyche:13/TKQ1.221114.001/V816.0.8.0.TLDCNXM:user/release-keys
