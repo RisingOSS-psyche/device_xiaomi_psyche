@@ -35,9 +35,6 @@ vendor.audio.feature.compr_voip.enable=false
 vendor.audio_hal.period_multiplier=3
 vendor.audio.offload.buffer.size.kb=32
 
-# Audio hardware
-ro.hardware.audio.primary=psyche
-
 # Display
 ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.set_idle_timer_ms=1500
