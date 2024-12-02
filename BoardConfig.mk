@@ -15,6 +15,9 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Dolby Vision
+TARGET_SUPPORTS_DOLBY_VISION := true
+
 # Xiaomi Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/xiaomi_manifest.xml
 

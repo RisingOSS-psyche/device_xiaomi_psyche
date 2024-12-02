@@ -407,6 +407,13 @@ vendor/etc/charger_fstab.qti
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
+# Dolby Vision
+vendor/etc/dolby_vision.cfg
+system/lib/libdolbyottcontrol.so
+system/lib/libdovi_omx.so
+system/lib64/libdolbyottcontrol.so
+system/lib64/libdovi_omx.so
+
 # Display-calibration
 product/etc/displayconfig/display_id_19260527152667265.xml:vendor/etc/displayconfig/display_id_19260527152667265.xml
 product/etc/displayconfig/display_id_4630946545580055169.xml:vendor/etc/displayconfig/display_id_4630946545580055169.xml
