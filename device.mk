@@ -26,6 +26,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/products/miuicamera.mk)
+
 # Dolby Config File
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/dolby/config/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
