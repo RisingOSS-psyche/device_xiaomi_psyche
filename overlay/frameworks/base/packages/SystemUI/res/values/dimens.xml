@@ -18,22 +18,19 @@
 <resources>
     <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
          relies on this value will not be sized correctly. -->
-    <item name="pixel_pitch" format="float" type="dimen">65.74</item>
+    <item name="pixel_pitch" format="float" type="dimen">60.61</item>
 
     <!-- The absolute side margins of quick settings -->
-    <dimen name="rounded_corner_content_padding">7dp</dimen>
+    <dimen name="rounded_corner_content_padding">52.0px</dimen>
 
     <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">0px</dimen>
+    <dimen name="status_bar_padding_start">4dp</dimen>
 
     <!-- the padding on the top of the statusbar (usually 0) -->
-    <dimen name="status_bar_padding_top">34px</dimen>
-
-    <!-- Margin on the left side of the carrier text on Keyguard -->
-    <dimen name="keyguard_carrier_text_margin">178px</dimen>
+    <dimen name="status_bar_padding_top">1dp</dimen>
 
     <!-- The padding on the end of the status bar. -->
-    <dimen name="status_bar_padding_end">18px</dimen>
+    <dimen name="status_bar_padding_end">0dp</dimen>
 
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">@dimen/status_bar_padding_end</dimen>

@@ -7,7 +7,7 @@
 # Inherit from sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/thyme
+DEVICE_PATH := device/xiaomi/psyche
 
 # Display
 TARGET_SCREEN_DENSITY := 440
@@ -16,23 +16,17 @@ TARGET_SCREEN_DENSITY := 440
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_thyme
-TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_thyme
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_psyche
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_psyche
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/thyme.config
+TARGET_KERNEL_CONFIG += vendor/xiaomi/psyche.config
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := thyme
-
-# PowerShare
-TARGET_POWERSHARE_PATH := /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/wireless/reverse_chg_mode
+TARGET_OTA_ASSERT_DEVICE := psyche
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# Sepolicy
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 # Inherit from the proprietary version
-include vendor/xiaomi/thyme/BoardConfigVendor.mk
+include vendor/xiaomi/psyche/BoardConfigVendor.mk

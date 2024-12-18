@@ -14,6 +14,7 @@ ro.vendor.audio.soundtrigger.appdefine.vop.level=10
 ro.vendor.audio.soundtrigger.lowpower=true
 ro.vendor.audio.soundtrigger.pangaea=1
 ro.vendor.audio.soundtrigger.snr=16
+ro.vendor.audio.soundtrigger.sva-5.0=1
 ro.vendor.audio.soundtrigger.training.level=50
 ro.vendor.audio.soundtrigger.xanzn.cnn.level=80
 ro.vendor.audio.soundtrigger.xanzn.gmm.level=45
@@ -21,7 +22,7 @@ ro.vendor.audio.soundtrigger.xanzn.gmm.user.level=30
 ro.vendor.audio.soundtrigger.xanzn.vop.level=10
 ro.vendor.audio.soundtrigger.xatx.cnn.level=45
 ro.vendor.audio.soundtrigger.xatx.gmm.level=25
-ro.vendor.audio.soundtrigger.xatx.gmm.user.level=40
+ro.vendor.audio.soundtrigger.xatx.gmm.user.level=20
 ro.vendor.audio.soundtrigger.xatx.vop.level=-10
 ro.vendor.audio.spk.stereo=true
 ro.vendor.audio.us.proximity=true
@@ -35,13 +36,12 @@ vendor.audio_hal.period_multiplier=3
 vendor.audio.offload.buffer.size.kb=32
 
 # Audio hardware
-ro.hardware.audio.primary=thyme
+ro.hardware.audio.primary=psyche
 
 # Display
 ro.surface_flinger.set_touch_timer_ms=200
-vendor.display.defer_fps_frame_count=2
 
 # Fingerprint
 persist.vendor.fingerprint.type=udfps_optical
-persist.vendor.fingerprint.sensor_location=540|1907|99
+persist.vendor.fingerprint.sensor_location=540|2163|107
 persist.vendor.fingerprint.udfps.control_illumination=true

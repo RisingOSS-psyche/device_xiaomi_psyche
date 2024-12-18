@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_thyme.mk
+    $(LOCAL_DIR)/lineage_psyche.mk
