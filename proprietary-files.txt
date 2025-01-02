@@ -1,15 +1,15 @@
 # Unpinned blobs from psyche_global-user 13 TKQ1.221114.001 V816.0.8.0.TLDMIXM release-keys
 
-# ACDB
-vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_General_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_Global_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_Handset_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_Hdmi_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_Headset_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_workspaceFile.qwsp
-vendor/etc/acdbdata/adsp_avs_config.acdb
+# ACDB - from psyche-user 11 RKQ1.200826.002 V13.0.10.0.RLDCNXM release-keys
+vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb|22392ca2ccd2671b8072f3de8503784cba045643
+vendor/etc/acdbdata/Tutu/Tutu_General_cal.acdb|d71dc7b0b46841e10a0c946af701220ffd82a2c7
+vendor/etc/acdbdata/Tutu/Tutu_Global_cal.acdb|291f2dd020397b611ad2a8895c42fcd25329894e
+vendor/etc/acdbdata/Tutu/Tutu_Handset_cal.acdb|5e4a4429eeb16e7de19c02277acc38728dbf179e
+vendor/etc/acdbdata/Tutu/Tutu_Hdmi_cal.acdb|03022031b056fc9331b1afdb6333590101190556
+vendor/etc/acdbdata/Tutu/Tutu_Headset_cal.acdb|258a08b612091302db1442d4e29f5bcb440eded9
+vendor/etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb|22dadd33390c7e5c94ea16c2b36a1157a90e7d7a
+vendor/etc/acdbdata/Tutu/Tutu_workspaceFile.qwsp|f41b3f6a5358e7306b82d582de5edb5eb2b1bd23
+vendor/etc/acdbdata/adsp_avs_config.acdb|51f049b97e1d0b56faa1cf3713682899f7522c1a
 
 # ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so
