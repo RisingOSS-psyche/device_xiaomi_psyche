@@ -22,6 +22,12 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
+# Evolution-X Flags
+TARGET_HAS_UDFPS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USE_GOOGLE_TELEPHONY := true
+WITH_GMS := true
+
 # Inherit from psyche device
 $(call inherit-product, device/xiaomi/psyche/device.mk)
 
